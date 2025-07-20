@@ -8,35 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Blog Platform Color Palette */
+    --background: 41 100% 96%; /* Ivory pearl #FFF4E4 */
+    --foreground: 25 39% 13%; /* Almost black #2B1A12 */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 25 39% 13%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 25 39% 13%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 25 78% 47%; /* Tangy orange #DC6D18 */
+    --primary-foreground: 41 100% 96%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 35 66% 87%; /* Cream pop #F8E0C9 */
+    --secondary-foreground: 25 39% 13%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 35 66% 87%;
+    --muted-foreground: 50 19% 60%; /* Limestone #B1AA81 */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 25 78% 47%;
+    --accent-foreground: 41 100% 96%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 41 100% 96%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 50 19% 85%;
+    --input: 35 66% 87%;
+    --ring: 25 78% 47%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(25 78% 47%), hsl(25 78% 55%));
+    --gradient-secondary: linear-gradient(180deg, hsl(41 100% 96%), hsl(35 66% 87%));
+    --shadow-soft: 0 4px 20px hsla(25 78% 47% / 0.1);
+    --shadow-medium: 0 8px 30px hsla(25 78% 47% / 0.15);
+    --shadow-strong: 0 12px 40px hsla(25 78% 47% / 0.2);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
